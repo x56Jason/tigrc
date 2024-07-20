@@ -53,8 +53,8 @@
 set blame-view	= date:custom author:no file-name:auto id:yes,color line-number:yes,interval=1 text
 set grep-view	= file-name:no line-number:yes,interval=1 text
 #set main-view	= line-number:no,interval=5 id:no date:default author:full commit-title:yes,graph,refs,overflow=no
-set main-view	= line-number:no,interval=1 id:yes date:custom author:no committer:no commit-title:yes,graph=v1,refs,overflow=no
-set quick-view	= line-number:no,interval=1 id:yes date:custom author:no committer:no commit-title:yes,graph,refs,overflow=no
+set main-view	= line-number:no,interval=1 id:yes date:custom author:no,width=20 committer:no,width=20 commit-title:yes,graph=v1,refs,overflow=no
+set quick-view	= line-number:no,interval=1 id:yes date:custom author:no,width=20 committer:no,width=20 commit-title:yes,graph,refs,overflow=no
 #set refs-view	= line-number:no id:no date:default author:full ref commit-title
 set refs-view	= ref
 set stash-view	= line-number:no,interval=5 id:no date:default author:full commit-title
