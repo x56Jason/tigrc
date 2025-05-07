@@ -385,7 +385,7 @@ color status			green	default
 color delimiter			magenta	default
 color date			cyan	default
 color mode			cyan	default
-color id			magenta	default
+color id			yellow	default
 color overflow			red	default
 color header			yellow	default
 color section			cyan	default
