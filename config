@@ -181,6 +181,13 @@ bind stash	!	?git stash drop %(stash)
 bind refs	C	?git checkout %(branch)
 bind refs	!	?git branch -D %(branch)
 
+bind main	1	toggle-line-color-1
+bind main	2	toggle-line-color-2
+bind main	3	toggle-line-color-3
+bind main	4	toggle-line-color-4
+bind main	5	toggle-line-color-5
+bind main	6	toggle-line-color-6
+bind main	7	toggle-line-color-7
 
 bind generic	<C-b>	toggle-bp-mark
 bind generic	<C-g>	bplist-search-limit
@@ -407,6 +414,13 @@ color main-head			cyan	default	bold
 color main-bp-mark		black	yellow
 color select-range		white	magenta
 color bplist-search-limit	white	red
+color line-color-1		white	red
+color line-color-2		white	magenta
+color line-color-3		black	green
+color line-color-4		black	yellow
+color line-color-5		black	cyan
+color line-color-6		black	white
+color line-color-7		white	red
 color stat-none			default	default
 color stat-staged		magenta	default
 color stat-unstaged		magenta	default
