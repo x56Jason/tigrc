@@ -181,11 +181,6 @@ bind stash	!	?git stash drop %(stash)
 bind refs	C	?git checkout %(branch)
 bind refs	!	?git branch -D %(branch)
 
-#bind main	B	?~/bin/tig-backport-cherry-pick.sh %(commit) %(ref)
-#bind quick	B	?~/bin/tig-backport-cherry-pick.sh %(commit) %(ref)
-
-bind main	<C-a>	?%~/bin/tig-backport-cherry-pick.sh %(commit) %(ref)
-bind quick	<C-a>	?%~/bin/tig-backport-cherry-pick.sh %(commit) %(ref)
 
 bind generic	<C-b>	toggle-bp-mark
 bind quick	<C-f>	%=(bplist)~/bin/find-fix-commit.sh %(commit)
